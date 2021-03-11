@@ -5,5 +5,4 @@
 def mod_power_2(number, power):
     return number & ((1 << power) - 1)
 
-
 print(mod_power_2(35, 2))
