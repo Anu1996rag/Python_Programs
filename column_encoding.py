@@ -20,7 +20,7 @@ for i in "AZ":
 print(result)
 
 # using lambda function
-a = lambda result, c : result * 26 + ord(c) - ord('A') + 1
+a = lambda result, c: result * 26 + ord(c) - ord('A') + 1
 functools.reduce(a, "AZ", 0)
 
 """
@@ -35,5 +35,5 @@ for i in "AZ":
 print(result)
 
 # using lambda function
-a = lambda result, c : result * 26 + ord(c) - ord('A')+1
+a = lambda result, c: result * 26 + ord(c) - ord('A') + 1
 print(functools.reduce(a, "AAL", 0))
